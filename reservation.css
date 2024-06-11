@@ -1,0 +1,58 @@
+/* Ty Reid 4/6/2024 */
+
+.reservation_container {
+	margin-top: 50px;
+	height: 100vh;
+}
+.reservation_container form {
+	background-color: #503e3e;
+	color: white;
+	width: 50%;
+	min-width: 300px;
+	margin: 70px auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: black 5px 5px 10px;
+}
+.reservation_container h2 {
+	margin: 0 auto;
+	color: RGB(180, 48, 49);
+	text-shadow: 1px 1px 2px black;
+	font-size: 70px;
+	text-align: center;
+	
+}
+fieldset {
+	display: grid;
+	grid-template-columns: 100%;
+	width: max-content;
+	gap: 30px;
+	margin: auto;
+	border: none;
+}
+.input-title {
+	padding-right: 30px;
+	font-size: 20px;
+	text-shadow: black 3px 3px 5px;;
+}
+fieldset input {
+	float: right;
+	height: 100%;
+	border-radius: 10px;
+	padding-left: 10px;
+	box-shadow: black 3px 3px 5px;
+}
+fieldset button {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 75%;
+	background-color: RGB(180, 48, 49);
+	color: white;
+	border-radius: 10px;
+}
+fieldset button:hover {
+	box-shadow: black -5px -5px 10px inset;
+}

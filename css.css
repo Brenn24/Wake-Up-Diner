@@ -1,0 +1,77 @@
+/* Ty Reid 4/6/2024 */
+/*
+blue color: #1ecbe1
+yellow color: #f5f585 
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	/*box-sizing: border-box;
+	border: 1px dashed black;*/
+}
+
+html {
+	background-color: #1ecbe1; 
+}
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+	background-color: #f5f585;
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+header {
+	display: grid;
+	grid-template-columns: 100%;
+	width: 100%;
+	justify-content: center;
+	background-color: #f5f585;
+	
+}
+.top-header {
+	text-align: center;
+	font-size: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #1ecbe1;
+}
+.pages {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	list-style: none;
+}
+.pages > li {
+	color: #1ecbe1;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.img-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+.img-grid > img {
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+}
+eggs-bacon {
+	transform: rotate(-90deg);
+}
+footer {
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}

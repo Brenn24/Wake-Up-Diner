@@ -1,0 +1,48 @@
+/* Ty Reid 4/6/2024 */
+
+.menu-container {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+	
+}
+section {
+	width: 500px;
+	height: 500px;
+	color: black;
+	text-align: center;
+}
+section > img {
+	width: 75%;
+	height: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	display: block;
+	box-shadow: 5px 5px 50px black;
+	border: 2px solid black;
+	border-radius: 10px;
+	
+}
+
+#sides div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 75%;
+	height: 75%;
+	gap: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	
+}
+#sides img {
+	width: 100%;
+	height: 100%;
+	box-shadow: 5px 5px 50px black;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+

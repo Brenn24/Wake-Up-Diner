@@ -1,0 +1,205 @@
+/* Ty Reid 4/6/2024 */
+
+/* Reset */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*border: 1px dashed black;*/
+}
+
+/* General Page Layout */
+
+html {
+	background-color: #1ecbe1;
+    Background: url('https://png.pngtree.com/thumb_back/fw800/background/20240102/pngtree-background-of-a-wooden-table-with-texture-image_13856792.png');
+    
+}
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+	background-color: #f5f585;
+	background: linear-gradient(45deg, #fcd303, #fefeb3, #f5f585,  #f5f585, #fcd303);
+	background: url('paper-1074131_1280.jpg');
+	box-shadow: black 0px 0 20px 0 inset;
+	width: 90%;
+    min-width: 840px;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+/* Navigation Bar */
+
+header {
+	display: grid;
+	grid-template-columns: 100%;
+	width: 100%;
+	justify-content: center;
+	
+}
+.sticky {
+	position: sticky;
+	top: 0px;
+	box-shadow: black 0px 0 10px 0 inset;
+background-image: url('paper-1074131_1280.jpg');	
+}
+
+.top-header {
+	text-align: center;
+	font-size: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*color: #f13c0e;*/
+	color: RGB(180, 48, 49);
+	text-shadow: 1px 1px 2px black;
+}
+
+#chef-right {
+	width: 150px;
+	margin-left: 10px;
+	animation-name: right;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#chef-left {
+	width: 150px;
+	animation-name: left;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes left {
+   0% {
+     transform: rotate(0deg);
+   }
+   50% {
+     transform: rotate(-45deg);
+   }
+   100% {
+	 transform: rotate(0deg);
+   }
+}
+
+
+@keyframes right {
+   0% {
+     transform: rotate(0deg);
+   }
+   50% {
+     transform: rotate(45deg);
+   }
+   100% {
+	 transform: rotate(0deg);
+   }
+}
+
+.pages {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	list-style: none;
+}
+.pages > li {
+	
+	color: #f13c0e;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*text-shadow: 1px 1px 2px black;*/
+}
+.pages > li > a {
+	
+	text-decoration: none;
+	/*color: #f13c0e;*/
+	color: black;
+	font-size: 60px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+
+.pages > li > a:hover {
+	color: white;
+}
+.pages > li > a:active {
+	color: black;
+}
+
+/* About Paragraphs */
+.about-container {
+	margin-top: 30px;
+	padding: 0 60px;
+}
+.welcome {
+	color: RGB(180, 48, 49);
+	text-shadow: 1px 1px 2px black;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.about-heading {
+	color: RGB(180, 48, 49);
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 3em;
+}
+#our-story, #our-philosophy {
+	width: 15%;
+	margin-left: 35%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.about-container > p {
+	font-family: Arial;
+	font-size: 1.5em;
+	margin-bottom: 50px;
+	text-align: justify;
+	color: #313131;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.me {
+	height: 300px;
+	float: right;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.random {
+	height: 300px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+/* Footer */
+
+footer {
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+/* About Us Images */
+
+.me , .random {
+	border: 5px solid black;
+	border-radius: 10px;
+	box-shadow: black 10px 10px 20px;
+}
